@@ -1,0 +1,12 @@
+<div class="main-section" style="background-image: url(/assets/imgs/episode-covers/00.jpg);">
+    {% include header.html %}
+
+    <div class="episode">
+        <div class="episode__number">{{ include.subtitle }}</div>
+        <div class="episode__title">{{ include.title }}</div>
+
+        {% if include.media %}
+            <iframe class="episode__media" height="166" scrolling="no" frameborder="no" src="{{ include.media }}"></iframe>
+        {% endif %}
+    </div>
+</div>

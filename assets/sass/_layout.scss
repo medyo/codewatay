@@ -1,0 +1,231 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-section {
+    background-color: $MAIN_COLOR;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 2.5em;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+
+.logo {
+    height: 2em;
+}
+
+.menu {
+    color: #fff;
+    font-size: 1.88em; /* 30px */
+    display: flex;
+
+    &__item {
+        &--active {
+            border-bottom: solid $ATAY_COLOR 0.17em;
+            /* color: $ATAY_COLOR; */
+
+            &:hover {
+                border-color: $ATAY_COLOR;
+            }
+        }
+    }
+
+    &__item:not(:last-child) {
+        margin-left: 1.36em;
+    }
+}
+
+.episode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 2.19em; // 35px
+
+    &__title {
+        font-size: 2.5em;
+        margin-bottom: 0.57em;
+    }
+
+    &__media {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 0.5em;
+    }
+}
+
+.section {
+    font-size: 1.25em; // 20px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.75em;
+
+    &--expended {
+        flex: 1;
+    }
+
+    &__title {
+        font-size: 1.75em;
+        margin-bottom: 1.25em;
+    }
+
+    &__content {
+        max-width: 50em;
+
+        &--notes {
+            font-family: Tahoma;
+        }
+    }
+}
+
+.section__title {
+
+    &--inverse {
+        color: #fff;
+    }
+}
+
+.episode-teaser {
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    font-size: 0.9em; // 18px
+
+    &:not(:last-child) {
+        margin-bottom: 3.33em;
+    }
+
+    &--from-nothingness {
+        color: #fff;
+        font-family: Tahoma;
+        text-align: center;
+        display: block;
+    }
+
+    &__info {
+        padding: 0 1.5em;
+        padding-top: 1.5em;
+        margin-left: 2px;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba($MAIN_COLOR, 0.5);
+        color: #fff;
+        justify-content: space-between;
+
+        &__number {
+            font-size: 1.56em; // 28px
+        }
+
+        &__length {
+            font-size: 1em;
+            font-family: Tahoma;
+            margin: 1.2em 0;
+        }
+
+        &__download-link {
+            margin: 0 -1.23em;
+            align-self: stretch;
+            background-color: $ATAY_COLOR;
+            font-size: 1.22em;
+        }
+    }
+
+    &__content {
+        flex: 1;
+        padding: 1.11em;
+        padding-bottom: 1.94em;
+        background-color: #fff;
+
+        &__title {
+            font-size: 2.22em;
+            color: $ATAY_COLOR;
+            padding-bottom: 0.56em;
+            line-height: 1;
+            display: block;
+        }
+
+        &__description {
+            font-size: 1em;
+            font-family: Tahoma;
+
+            a {
+                color: $ATAY_COLOR;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.author {
+    font-size: 1.25em; /* 20px */
+    text-align: center;
+
+    &__avatar {
+        width: 7.5em;
+    }
+
+    &__name {
+        font-size: 1.5em;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0.8em;
+
+        &__item {
+            color: $MAIN_COLOR;
+        }
+    }
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    padding: 1.56em 0;
+    font-size: 1.13em; // 18
+    font-family: Tahoma;
+    color: #fff;
+
+    &__wing {
+        font-weight: 700;
+        line-height: 1.4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__sentence {
+            font-weight: 300;
+            font-size: 0.78em;
+        }
+
+        &--left {
+            text-align: left;
+            margin-left: 1.39em;
+        }
+
+        &--right {
+            text-align: right;
+            margin-right: 1.39em;
+        }
+    }
+
+    &__flag {
+        height: 2.78em;
+        width: 4.11em;
+        background-color: #D4D4D5;
+    }
+}

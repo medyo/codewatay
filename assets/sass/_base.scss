@@ -1,0 +1,18 @@
+body {
+    direction: rtl;
+    font-family: 'AraHamahAlFidaa-Regular', Tahoma, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        color: $ATAY_COLOR;
+    }
+}
+
+button {
+    border: none;
+    padding: 6px 10px;
+}
