@@ -2,7 +2,7 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.codewatay.com" # the base hostname & protocol for your site
 
-title: Codewatay - لكود وأتاي
+title: لكود وأتاي ( Codewatay )
 description: The Voice Of The Moroccan Programming Community
 
 collections:
@@ -21,8 +21,6 @@ markdown: kramdown
 highlighter: null
 sass:
     sass_dir: assets/sass
-gems:
-  - octopress-autoprefixer
 
 # Handling Reading
 exclude: ["README.md"]
@@ -32,6 +30,7 @@ fullname: متقي الله مدان
 email: mailto:codewatay.info@gmail.com
 twitter: https://twitter.com/electrik_frog
 website: http://electrik-frog.com
+facebook: https://www.facebook.com/electrik.frog
 
 # SEO
 keywords:
@@ -39,3 +38,5 @@ keywords:
     - programming
     - maroc
     - morocco
+    - codewatay
+    - لكود وأتاي
