@@ -117,6 +117,15 @@ body {
     font-size: 1.25em; // 20px
     padding: 1.75em;
 
+    a {
+        color: $ATAY_COLOR;
+        font-weight: bold;
+
+        &:hover {
+            color: $MAIN_COLOR;
+        }
+    }
+
     &__title {
         font-size: 1.75em;
         margin-bottom: 1.25em;
@@ -188,6 +197,11 @@ body {
         background-color: rgba($MAIN_COLOR, 0.5);
         color: #fff;
 
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        background-size: cover;
+
         &__number {
             font-size: 1.56em; // 28px
         }
@@ -206,6 +220,12 @@ body {
             background-color: $ATAY_COLOR;
             margin: 0 -1.23em;
             font-size: 1.22em;
+            text-align: center;
+            padding: 0.2em;
+
+            &:hover {
+                color: #fff;
+            }
         }
     }
 
