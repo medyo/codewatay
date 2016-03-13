@@ -1,4 +1,9 @@
-<div class="main-section" style="background-image: url(/assets/imgs/episode-covers/00.jpg);">
+{% if page.number %}
+    {% capture cover %}/assets/imgs/covers/website/{{ page.number }}.jpg{% endcapture %}
+{% else %}
+    {% capture cover %}/assets/imgs/covers/{{ page.cover }}.jpg{% endcapture %}
+{% endif %}
+<div class="main-section" style="background-image: url({{cover}});">
     {% include header.html %}
 
     <div class="episode">
