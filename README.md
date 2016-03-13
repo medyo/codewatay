@@ -1,2 +1,8 @@
-# codewatay.github.io
-The voice of the moroccan programming community — A work in progress —
+# Codewatay
+The voice of the moroccan programming community, hosted by [@electrik_frog](https://twitter.com/electrik_frog).
+
+This is the codebase of the [website](codewatay.com), hosted in [Github pages](https://pages.github.com/) and powered by [Jekyll](https://jekyllrb.com/).
+
+This website and the Podcast itself are under [Creative Commons, Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+
+PS: [Gh-pages](https://github.com/kronik3r/codewatay/tree/gh-pages) branch is where the cool stuff is happening ;).
