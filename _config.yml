@@ -21,6 +21,8 @@ markdown: kramdown
 highlighter: null
 sass:
     sass_dir: assets/sass
+gems:
+  - octopress-autoprefixer
 
 # Handling Reading
 exclude: ["README.md"]
