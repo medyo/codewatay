@@ -22,6 +22,7 @@ markdown: kramdown
 highlighter: null
 sass:
     sass_dir: assets/sass
+    style: compressed
 
 # Handling Reading
 exclude: ["README.md"]
