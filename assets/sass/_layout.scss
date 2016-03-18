@@ -116,10 +116,10 @@ body {
     align-items: center;
     font-size: 1.25em; // 20px
     padding: 1.75em;
+    padding-bottom: 2.8em;
 
     a {
         color: $ATAY_COLOR;
-        font-weight: bold;
 
         &:hover {
             color: $MAIN_COLOR;
@@ -130,6 +130,7 @@ body {
         font-size: 1.75em;
         margin-bottom: 1.25em;
         text-align: center;
+        line-height: 1;
     }
 
     &__content {
@@ -146,6 +147,10 @@ body {
     &--inverse {
         color: #fff;
     }
+}
+
+.important-links {
+    text-align: center;
 }
 
 .episode-teaser {

@@ -16,3 +16,10 @@ button {
     border: none;
     padding: 6px 10px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: 'AraHamahAlFidaa-Regular', Tahoma, sans-serif;
+    text-align: center;
+    color: $ATAY_COLOR;
+}
